@@ -1,0 +1,82 @@
+body {
+    font-family: 'arial';
+    background-color: rgb(250, 250, 250);
+}
+
+.error {
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    display: none;
+}
+
+.error > h1 {
+    text-transform: uppercase;
+}
+
+#title {
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+}
+
+#header {
+    background-color: rgb(62, 35, 100);
+    position: relative;
+}
+
+#profile-icon {
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.center-vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+#content {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.custom-panel {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 40px;
+}
+
+.post-time {
+    color: rgb(166, 153, 153);
+}
+
+.answer {
+    font-size: 16px;
+}
+
+.button-line {
+    margin-top: 20px;
+}
+
+.comment {
+    color: rgb(166, 153, 153);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.comment:hover {
+    text-decoration: underline;
+}

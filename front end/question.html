@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/question.css" type="text/css"/>
+        
+        <script src="https://wzrd.in/standalone/buffer"></script>
+        <script src="js/web3.min.js" type="text/javascript"></script>
+        <script src="js/jquery-1.12.4.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="https://unpkg.com/ipfs-api@9.0.0/dist/index.js" integrity="sha384-5bXRcW9kyxxnSMbOoHzraqa7Z0PQWIao+cgeg327zit1hz5LZCEbIMx/LWKPReuB" crossorigin="anonymous"></script>
+        
+        <script src="js/html5shiv.js" type="text/javascript"></script>
+        <script src="js/respond.min.js" type="text/javascript"></script>
+        <link href="css/widgEditor.css" rel="stylesheet"  type="text/css"/>
+        <script src="js/widgEditor.js" type="text/javascript"></script>
+        <script src="js/question.js" type="text/javascript"></script>
+    </head>
+    <body>
+    
+        <div class="error">
+            <h1></h1>
+            <h3></h3>
+        </div>
+        
+        <div id="divJugad">
+            
+            <div id="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 hidden-xs">
+                            <h1 id="title">KORA</h1>
+                        </div>
+                        <div class="col-sm-4 hidden-xs">
+                            <form class="center-vertical">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-1 col-sm-offset-1 col-xs-offset-11">
+                            <span class="glyphicon glyphicon-user" id="profile-icon"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="nav nav-pills nav-stacked">
+                              <li><a href="..">Home</a></li>
+                              <li><a href="#">Ask</a></li>
+                              <li><a href="#">My Profile</a></li>
+                              <li><a href="#">About Kora</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-8" id="qna">
+                            
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="panel panel-default custom-panel">
+                                        <div class="panel-body">
+                                            <div class="question" id="question">What are you doing now a days?</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="#" id="answer-link">Answer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div> 
+        
+    </body>
+</html>
